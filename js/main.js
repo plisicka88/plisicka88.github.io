@@ -17,13 +17,13 @@ $('#yes').on('click', function() {
 	}
 
 	if (currentPosition >= maximium) {
-		$('#no').attr('disabled', true).addClass('noHover');
+		$('#no').attr('disabled', true);
 	}
 
 	$('#pics').attr('src', 'images/' + imagesArray[currentPosition]);
 
 	if (currentPosition >= maximium) {
-		$('#no').attr('disabled', true).addClass('noHover');
+		$('#no').attr('disabled', true);
 
 	}
 
