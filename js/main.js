@@ -1,12 +1,14 @@
+$(document).ready(function(){
+
 var imagesArray = ['pic1.jpg','pic2.jpg','pic3.jpg','pic4.jpg','pic5.jpg','pic6.jpg','pic7.jpg','pic8.jpg','pic9.jpg','pic10.jpg']
 
 var imageDescription = [0,0,0,0,0,0,0,0,0,0];
 
-var yesTallyMinimum = 0;
-var yesTallyMaximum = 10;
+var yesTally = 0;
+// var yesTallyMaximum = 10;
 
-var noTallyMinimum = 0;
-var noTallyMaximum = 10;
+var noTally = 0;
+// var noTallyMaximum = 10;
 
 var currentPosition = 0;
 
@@ -62,7 +64,7 @@ $('#yes').on('click', function (){
 
 	$('#description').html('Doggos - in various breeds');
 
- console.log('my image currently is:' + imageDescription);
+ // console.log('my image currently is:' + imageDescription);
 
 });
 
@@ -71,7 +73,28 @@ $('#no').on('click', function (){
 
 	$('#description').html("Every Netflix owner's favorite show to binge on");
 
- console.log('my image currently is:' + imageDescription);
+ // console.log('my image currently is:' + imageDescription);
 
 });
+
+$('#yes').click(function() {
+	if (currentPosition == 9) {
+		$('#ten').show(1000);	
+	}
+
+	else if (currentPosition >= 8) {
+		$('#nine').show(1000);	
+	}
+
+	console.log('is this working');
+});
+
+// $('#yes').click(function() {
+// 	if (yesTally >= 8) {
+// 		$('#nine').show('fast');	
+// 	}
+
+
+});
+
 
