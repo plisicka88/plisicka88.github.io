@@ -127,11 +127,11 @@ body {
     font-size: 25px;
 }
 
-#yes:hover {
+#yes:hover:enabled {
     color: yellow;
 }
 
-#no:hover {
+#no:hover:enabled {
     color: yellow;
 }
 
