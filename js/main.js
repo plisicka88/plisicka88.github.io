@@ -5,10 +5,7 @@ var imagesArray = ['pic1.jpg','pic2.jpg','pic3.jpg','pic4.jpg','pic5.jpg','pic6.
 var imageDescription = [0,0,0,0,0,0,0,0,0,0];
 
 var yesTally = 0;
-// var yesTallyMaximum = 10;
-
 var noTally = 0;
-// var noTallyMaximum = 10;
 
 var currentPosition = 0;
 
@@ -30,11 +27,9 @@ $('#yes').on('click', function() {
 
 	if (currentPosition >= maximium) {
 		$('#no').attr('disabled', true);
-
 	}
-	// console.log(currentPosition);
-
 });
+
 
 $('#no').on('click', function () {
 	currentPosition += 1;
@@ -53,8 +48,6 @@ $('#no').on('click', function () {
 	if (currentPosition >= maximium) {
 		$('#yes').attr('disabled', true);
 	}
-
-	// console.log(currentPosition);
 });
 
 
@@ -68,13 +61,12 @@ $('#yes').on('click', function (){
 
 });
 
+
 $('#no').on('click', function (){
 	imageDescription[currentPosition] += 1;
 
 	$('#description').html("Every Netflix owner's favorite show to binge on");
-
  // console.log('my image currently is:' + imageDescription);
-
 });
 
 $('#yes').click(function() {
@@ -94,7 +86,7 @@ $('#yes').click(function() {
 // 		$('#nine').show('fast');	
 // 	}
 
-
 });
+
 
 
