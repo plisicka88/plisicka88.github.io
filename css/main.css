@@ -162,15 +162,15 @@ h3 {
 h4 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
-    color: yellow;
+    color: purple;
     text-align: center;
 }
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 10px;
-    color: white;
+    font-size: 18px;
     text-align: center;
+    font-weight: 300;
 }
 
 .results {
