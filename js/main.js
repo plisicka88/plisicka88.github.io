@@ -15,15 +15,15 @@ $(document).ready(function(){
 
 	var imageDescription = [
 		"CATTOS",
-		"Desc 2",
-		"Desc 3",
-		"Desc 4",
-		"Desc 5",
-		"Desc 6",
-		"Desc 7",
-		"Desc 8",
-		"Desc 9",
-		"Desc 10",
+		"DOGGOS",
+		"THE OFFICE",
+		"GOT",
+		"HOCKEY",
+		"RAINY DAYS",
+		"TRAVELING",
+		"VEGETABLES",
+		"VOLUNTEERING",
+		"DECORATIVE PILLOWS",
 	];
 
 	var yesTally = 0;
@@ -63,7 +63,26 @@ $(document).ready(function(){
 				$.featherlight("<div>" + $("#ten").html() + "</div>");
 			} else if (yesTally == 9) {
 				$.featherlight("<div>" + $("#nine").html() + "</div>");
+			} else if (yesTally == 8) {
+				$.featherlight("<div>" + $("#eight").html() + "</div>");
+			} else if (yesTally == 7) {
+				$.featherlight("<div>" + $("#seven").html() + "</div>");
+			} else if (yesTally == 6) {
+				$.featherlight("<div>" + $("#six").html() + "</div>");
+			} else if (yesTally == 5) {
+				$.featherlight("<div>" + $("#five").html() + "</div>");
+			} else if (yesTally == 4) {
+				$.featherlight("<div>" + $("#four").html() + "</div>");
+			} else if (yesTally == 3) {
+				$.featherlight("<div>" + $("#three").html() + "</div>");
+			} else if (yesTally == 2) {
+				$.featherlight("<div>" + $("#two").html() + "</div>");
+			} else if (yesTally == 1) {
+				$.featherlight("<div>" + $("#one").html() + "</div>");
+			} else if (yesTally == 0) {
+				$.featherlight("<div>" + $("#zero").html() + "</div>");
 			}
+
 
 		} else {
 			// This is what happens ANY other time

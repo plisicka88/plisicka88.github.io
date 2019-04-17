@@ -200,9 +200,23 @@ footer {
     margin-bottom: 10px;
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
-
 }
 
+.navigation {
+    display: inline;
+}
+
+.fa-envelope {
+    color: white;
+}
+
+.fa-twitter-square {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
 
 /* ==========================================================================
    Helper classes
