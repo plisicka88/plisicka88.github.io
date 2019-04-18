@@ -14,16 +14,16 @@ $(document).ready(function(){
 	]
 
 	var imageDescription = [
-		"CATTOS",
-		"DOGGOS",
+		"CATS",
+		"DOGS",
 		"THE OFFICE",
-		"GOT",
+		"GAME OF THRONES",
 		"HOCKEY",
 		"RAINY DAYS",
 		"TRAVELING",
 		"VEGETABLES",
 		"VOLUNTEERING",
-		"DECORATIVE PILLOWS",
+		"COUNTLESS DECORATIVE PILLOWS",
 	];
 
 	var yesTally = 0;
